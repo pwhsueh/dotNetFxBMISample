@@ -21,7 +21,7 @@ namespace HealthMgr
         {
             float result = 0;
             //將 float 改成 int 試試看
-            int height = (int)Height / 100;
+            float height = Height / 100.0;
             result = Weight / (height * height);
 
             return result;
